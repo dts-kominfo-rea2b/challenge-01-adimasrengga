@@ -25,41 +25,41 @@ const secondUser = {
 };
 
 function setColor(){
-    let colorSet2 = new Set();
-    colorSet2.add("Yellow");
-    colorSet2.add("Pink");
-    colorSet2.add("White");
-    colorSet2.add("Purple");
+    let colorSet2 = [];
+    colorSet2.push("Yellow");
+    colorSet2.push("Pink");
+    colorSet2.push("White");
+    colorSet2.push("Purple");
     return colorSet2;
  }
  function setColor2(){
-    let colorSet3 = new Set();
-    colorSet3.add("Blue");
-    colorSet3.add("Black");
-    colorSet3.add("Grey");
+    let colorSet3 = [];
+    colorSet3.push("Blue");
+    colorSet3.push("Black");
+    colorSet3.push("Grey");
     return colorSet3;
  }
  function setRestaurant(){
-     let favoriteRestaurant2 = new Set();
-     favoriteRestaurant2.add("Bento");
-     favoriteRestaurant2.add("Sushi");
-     favoriteRestaurant2.add("Pancake");
-     favoriteRestaurant2.add("Eggy");
-     favoriteRestaurant2.add("Tempura");
-     favoriteRestaurant2.add("Padang");
-     favoriteRestaurant2.add("Tteok");
+     let favoriteRestaurant2 = [];
+     favoriteRestaurant2.push("Bento");
+     favoriteRestaurant2.push("Sushi");
+     favoriteRestaurant2.push("Pancake");
+     favoriteRestaurant2.push("Eggy");
+     favoriteRestaurant2.push("Tempura");
+     favoriteRestaurant2.push("Padang");
+     favoriteRestaurant2.push("Tteok");
     return favoriteRestaurant2;
     }
     function setRestaurant2(){
-        let favoriteRestaurant3 = new Set();
-     favoriteRestaurant3.add("Tempura");
-     favoriteRestaurant3.add("Bento");
-     favoriteRestaurant3.add("Sushi");
-     favoriteRestaurant3.add("Pancake");
-     favoriteRestaurant3.add("Padang");
-     favoriteRestaurant3.add("Katsu");
-     favoriteRestaurant3.add("Geprek");
-     favoriteRestaurant3.add("Eggy");
+        let favoriteRestaurant3 = [];
+     favoriteRestaurant3.push("Tempura");
+     favoriteRestaurant3.push("Bento");
+     favoriteRestaurant3.push("Sushi");
+     favoriteRestaurant3.push("Pancake");
+     favoriteRestaurant3.push("Padang");
+     favoriteRestaurant3.push("Katsu");
+     favoriteRestaurant3.push("Geprek");
+     favoriteRestaurant3.push("Eggy");
     return favoriteRestaurant3;
     }
  function Education(inputName, inputCity, inputGraduate){
